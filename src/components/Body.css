@@ -1,0 +1,17 @@
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.body-image img{
+    width: 50rem;
+    border: 0.2rem solid whitesmoke;
+    border-radius: 1rem;
+}
+
+.body-text {
+    color: black;
+    width: 70%;
+    padding: 0rem 3rem;
+}

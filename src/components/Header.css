@@ -1,0 +1,9 @@
+.header {
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem;
+    padding: 0.5rem 2rem;
+    color:red;
+    background-color: black;
+}

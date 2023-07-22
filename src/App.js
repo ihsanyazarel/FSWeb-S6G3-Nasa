@@ -4,7 +4,7 @@ import Header from "./components/Header"
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import axios from "axios";
-import "./App.css";
+import "./App.css"
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="app">
       <Header date={date} />
       <Body url={url} title={title} explanation={explanation}/>  
       <Footer/>
